@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Almacenamiento Local y de Sesión</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de Almacenamiento</h1>
+        <form id="dataForm">
+            <label for="fullName">Nombre Completo:</label>
+            <input type="text" id="fullName" name="fullName" />
+
+            <label for="country">País:</label>
+            <select id="country" name="country">
+                <option value="honduras">Honduras</option>
+                <option value="guatemala">Guatemala</option>
+                <option value="el_salvador">El Salvador</option>
+            </select>
+
+            <label for="bio">Biografía:</label>
+            <textarea id="bio" name="bio"></textarea>
+
+            <button type="button" id="submitBtn">Enviar</button>
+        </form>
+    </div>
+
+    <script src="js/sessionStorage.js"></script>
+</body>
+</html>

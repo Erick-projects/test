@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Reproductor de Audio con Desplazamiento</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <h1>REPRODUCTOR</h1>
+        <div id="songInfo" class="song-info">
+            <p id="songText"></p>
+        </div>
+        <audio id="audioPlayer" controls>
+            <source src="audio/song.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <div class="controls">
+            <button id="prevBtn">Anterior</button>
+            <button id="playBtn">Reproducir</button>
+            <button id="nextBtn">Siguiente</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
